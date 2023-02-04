@@ -1,128 +1,68 @@
 <script>
-  // console.log()
-  console.log();
+  /**
+   * declaring variables
+   */
+  let name;
+  var lastName;
+  // console.log('lastName:', lastName);
 
-  // 1st data type: undefined
-  // console.log(undefined);
+  /**
+   * operations on undefined
+   */
 
-  // 2nd data type: null
-  // console.log(null);
+  /**
+   * variables are case sensitive
+   */
 
-  // console.log({} ? 'is' : 'isnt');
+  /**
+   * storing values with assignment operator
+   */
+  // during declaration:
+  let age = 59;
+  // console.log('age:', age);
+  // during reassignment
+  name = 'Vardena';
+  name = 'Zigfrid';
+
+  /**
+   * assigning one variable value to another
+   */
+  let firstName = name;
+  // console.log('firstName:', firstName);
+
+  /**
+   * declaring constant variables
+   */
+  const API_KEY =
+    '5434gr0v34vjvo43005jlvjmvn2kmfklmvkljb2ljm3klj4jrmm';
+  // console.log('API_KEY:', API_KEY);
+  // API_KEY = 45; // error
 </script>
 
 <h1 class="text-2xl text-center font-bold">
-  lesson 2: Data Types
+  lesson 2: Variables
 </h1>
 
-<!-- 1st data type: undefined -->
+<!-- declaring variables -->
 <!-- <div> -->
-<!--   undefined value: {undefined} -->
+<!--   variable name contains: {name} <br /> -->
 <!-- </div> -->
 
+<!-- <div>name: {Name}</div> -->
+
+<!-- operations on undefined -->
 <!-- <div> -->
-<!--   typeof undefined: {typeof undefined} -->
+<!--   undefined and number addition: {undefined + 4} <br /> -->
+<!--   undefined and string concatenation: {undefined + -->
+<!--     'some string'} -->
 <!-- </div> -->
 
+<!-- reassignment -->
 <!-- <div> -->
-<!--   undefined is {undefined ? '' : 'not'} truthy -->
+<!--   {name} -->
 <!-- </div> -->
 
-<!-- 2nd data type: null -->
+<!-- variable firstName -->
 <!-- <div> -->
-<!--   null value: {null} -->
-<!-- </div> -->
-
-<!-- <div> -->
-<!--   typeof null : {typeof null} -->
-<!-- </div> -->
-
-<!-- <div> -->
-<!--   null is {null ? '' : 'not'} truthy -->
-<!-- </div> -->
-
-<!-- 3rd data type: boolean -->
-<!-- <div> -->
-<!--   boolean values: -->
-<!--   <ol class="list-inside list-decimal"> -->
-<!--     <li> -->
-<!--       {true -->
-<!--         ? 'true is truthy value' -->
-<!--         : 'true is falsy value'} -->
-<!--     </li> -->
-<!--     <li> -->
-<!--       {false -->
-<!--         ? 'false is truthy value' -->
-<!--         : 'false is falsy value'} -->
-<!--     </li> -->
-<!--   </ol> -->
-<!-- </div> -->
-
-<!-- <div> -->
-<!--   typeof true: {typeof true} -->
-<!-- </div> -->
-
-<!-- 4th data type: string -->
-<!-- <div> -->
-<!--   string values: {'this is a string'} | -->
-<!--   {'this is single quoted string'} | -->
-<!--   {`template literal string: ${undefined} ${true}`} -->
-<!-- </div> -->
-
-<!-- <div> -->
-<!--   string truthyness: empty string {'' ? 'is' : 'is not'} truthy -->
-<!-- </div> -->
-
-<!-- <div> -->
-<!--   string truthyness: non empty string {'0' -->
-<!--     ? 'is' -->
-<!--     : 'is not'} truthy -->
-<!-- </div> -->
-
-<!-- 5th data type: symbol -->
-<!-- <div>symbol value: {Symbol('mysymbol')}</div> -->
-<!-- <div>symbol type: {typeof Symbol('somesymbol')}</div> -->
-<!-- <div> -->
-<!--   truthyness of symbol: {Symbol('') ? 'is' : 'is not'} truthy -->
-<!-- </div> -->
-
-<!-- 6th data type: bigint -->
-<!-- <div> -->
-<!--   bigint examples: {BigInt(-494593322)}; {297489729359897234n} -->
-<!-- </div> -->
-
-<!-- <div> -->
-<!--   typeof bigint : {typeof 423197897891257n} -->
-<!-- </div> -->
-
-<!-- <div> -->
-<!--   truthyness of bigint: zero bigint {0n ? 'is' : 'is not'} truthy -->
-<!--   <br /> -->
-<!--   negative bigint {-1499n ? 'is' : 'is not'} truthy <br /> -->
-<!-- </div> -->
-
-<!-- 7th data type: number -->
-<!-- <div> -->
-<!--   types of numbers: {34902893409} | {-43895.4959} | {400.23} -->
-<!-- </div> -->
-
-<!-- <div> -->
-<!--   truthyness of numbers: 0: {0 ? 'is' : 'is not'} truthy <br/> -->
-<!--   nan is {NaN ? "": "not"} truthy -->
-<!--   all other number : {54 ? 'is' : 'is not'} truthy  -->
-<!-- </div> -->
-
-<!-- 8th data type: object -->
-<!-- <div> -->
-<!--   exapmles of objects: {{}} | {{ property: true }} | {[ -->
-<!--     57, 45, 34 -->
-<!--   ]} -->
-<!-- </div> -->
-
-<!-- <div> -->
-<!--   truthyness of objects: empty object : {{} -->
-<!--     ? 'is' -->
-<!--     : 'is not'} truthy <br /> -->
-
-<!--   empty array : {[] ? 'is' : 'is not'} truthy <br /> -->
+<!--   firstName variable holds: {firstName} -->
 <!-- </div> -->

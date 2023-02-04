@@ -11,5 +11,5 @@
 <h1 class="text-2xl text-center font-bold">
   lesson 1: Comments
 </h1>
-
-<!-- <div>this is a div element</div> -->
+<h1>ვსწავლობ</h1>
+<!--პროგრამირებას-->
